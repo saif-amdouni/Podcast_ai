@@ -20,7 +20,7 @@ class WebMDSpider(scrapy.Spider):
         for li in response.css(f'li[data-date="{current_date}"]'):
             extracted_data = {
                 'date': current_date,
-                'href': li.css('a::attr(href)').get(),
+                'href': "https:"+li.css('a::attr(href)').get(),
                 'title': li.css('a span.article-title::text').get(),
                 'description': li.css('a p.article-description::text').get()
             }
