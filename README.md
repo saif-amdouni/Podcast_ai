@@ -31,23 +31,3 @@ To summarize the articles, we will use GPT-3, a powerful language generation mod
 Generating Audio
 
 Finally, we will use text-to-speech (TTS) algorithms to generate audio recordings that read out the summaries. We will use multiple TTS models to select the best one for this purpose.
-Running the Project
-
-The project can be run by executing the main.py file.
-
-python main.py
-
-Authors
-
-    Your Name - Initial work
-
-License
-
-This project is licensed under the MIT License.
-Acknowledgments
-
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc
-
-Please let me know if you want me to add or remove any information.
